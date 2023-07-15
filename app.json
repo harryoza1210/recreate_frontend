@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "ReCreate",
+    "slug": "ReCreate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/REcREATE.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/REcREATE.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#84D2C5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/REcREATE.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "io.expo.recreate"
+    },
+    "web": {
+      "favicon": "./assets/REcREATE.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bd165a3-6ec3-4342-8be4-d5617e632e55"
+      }
+    }
+  }
+}
